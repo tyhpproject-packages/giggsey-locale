@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/giggsey-locale",
+    "description": "Tyhp type definitions for giggsey/locale 2.9.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.9.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/giggsey-locale-impl": "~2.9.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/giggsey-locale-impl"
+        }
+    }
+}
